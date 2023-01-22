@@ -1,0 +1,117 @@
+
+.hidden { 
+    display: none 
+}
+
+#main-container {
+    position: absolute;
+    top: 61.5%;
+    left: 85.5%;
+    background-color: #1f1e1e;
+    height: 35%;
+    width: 12%;
+    border: solid 2px transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#1f1e1e, #323030, #000), linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+/* Controller buttons */
+.button-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: absolute;
+    top: 8%;
+    left: 7.5%;
+    width: 80%;
+    height: 80%;
+    gap: 10px;
+    background-color: none;
+    padding: 2%
+}
+.button-grid > div {
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.logo {
+    background-image: url('/html/images/logo.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+.onkey {
+    background-image: url('/html/images/on.png');
+    background-size: cover;
+    background-position: center center;
+    background-color: rgb(185, 1, 1);
+    cursor: pointer;
+}
+
+.white {
+    background-color: rgb(222, 222, 255);
+    cursor: pointer;
+}
+
+.blue {
+    background-color: rgb(2, 21, 255);
+    cursor: pointer;
+}
+
+.eblue {
+    background-color: rgb(3, 83, 255);
+    cursor: pointer;
+}
+
+.mgreen {
+    background-color: rgb(0, 255, 140);
+    cursor: pointer;
+}
+
+.lgreen {
+    background-color: rgb(94, 255, 1);
+    cursor: pointer;
+}
+
+.yellow {
+    background-color: rgb(255, 255, 0);
+    cursor: pointer;
+}
+
+.gshower {
+    background-color: rgb(255, 150, 0);
+    cursor: pointer;
+}
+
+.orange {
+    background-color: rgb(255, 62, 0);
+    cursor: pointer;
+}
+
+.red {
+    background-color: rgb(255, 1, 1);
+    cursor: pointer;
+}
+
+.ppink {
+    background-color: rgb(255, 50, 100);
+    cursor: pointer;
+}
+
+.hpink {
+    background-color: rgb(255, 50, 190);
+    cursor: pointer;
+}
+
+.purple {
+    background-color: rgb(128, 0, 128);
+    cursor: pointer;
+}
+
+.blacklight {
+    background-color: rgb(75, 0, 130);
+    cursor: pointer;
+}
